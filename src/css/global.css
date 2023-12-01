@@ -1,0 +1,62 @@
+body{
+    font-family: "Rubik" !important;
+    width: 100vw;
+    height: 100vh;
+    background: var(--primary) !important;
+}
+.app-cnt{
+    height: fit-content;
+}
+
+.header-txt{
+    text-align: center;
+    color: var(--white);
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.selection-cnt{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cnt{
+    width: 50%;
+    height: fit-content;
+    background: var(--secondary);
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+    margin: 1rem 0 2rem 0;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 30px 0 rgba(0, 0, 0, 0.3);
+}
+
+.amount-txt{
+    text-align: center;
+    font-family: "Rubik";
+    margin-top: 1.5rem;
+}
+
+.form-select:focus{
+    border-color: var(--white) !important;
+    box-shadow: none !important;
+}
+
+/* Tablet  */
+@media (max-width: 1200px) and (min-width: 768px){
+    .form-cnt{
+        width: 70%;
+    }
+}
+
+/* Mobile  */
+@media (max-width: 768px){
+    .form-cnt{
+        width: 90%;
+    }
+
+    .header-txt{
+        font-size: 2.3rem;
+    }
+}
